@@ -42,5 +42,8 @@ kvrocks
 version.h
 Makefile.dep
 make_config.mk
-src/testdb/*
-src/compactdb/*
+
+src/kvrocks2redis
+src/testsdb/
+src/unittest
+src/compactdb/
