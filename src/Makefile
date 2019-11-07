@@ -22,7 +22,7 @@ LIBEVENT= $(LIBEVENT_PATH)/.libs/libevent.a
 LIBEVENT_PTHREADS= $(LIBEVENT_PATH)/.libs/libevent_pthreads.a
 JEMALLOC_PATH= $(EXTERNAL_LIBRARY_PATH)/jemalloc
 JEMALLOC= $(JEMALLOC_PATH)/lib/libjemalloc.a
-ROCKSDB_PATH= $(EXTERNAL_LIBRARY_PATH)/rocksdb
+ROCKSDB_PATH= $(EXTERNAL_LIBRARY_PATH)/titan/build/rocksdb
 ROCKSDB= $(ROCKSDB_PATH)/librocksdb.a
 # Include paths to dependencies
 FINAL_CXXFLAGS+= -I$(JEMALLOC_PATH)/include \
